@@ -12,8 +12,8 @@
 
 //reduce is array helper like every()
 //because of taht we converted string to array and then applied reduce
-//we use reduce when we have array and we want to calculate sth based on array memmebrs and get
-//single result
+//we use reduce when we have array and we want to calculate sth based on array memmebrs and get 
+//single result 
 //[a,b,c,d] --> dcba
 function reverse(str) {
   return str.split("").reduce((reversed, character) => {
