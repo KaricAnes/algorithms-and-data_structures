@@ -1,5 +1,5 @@
 function reverse(str) {
-  let reversedString = "";
+  let reversedString = "F";
   let strLength = str.length; //4
   for (let i = strLength - 1; i >= 0; i--) {
     //str[4] je undefined; str [3] je d. zato sam stavio strLength - 1
@@ -9,4 +9,4 @@ function reverse(str) {
   //reversedString = str[3] + str[2] + str[1] + str[0]; //manuelno rijesen zadatak
   return reversedString;
 }
-console.log(reverse("1234"));
+reverse("abcd");
