@@ -9,4 +9,4 @@ function reverse(str) {
   //reversedString = str[3] + str[2] + str[1] + str[0]; //manuelno rijesen zadatak
   return reversedString;
 }
-console.log(reverse("1234"));
+CONSOLEreverse("abcd");
