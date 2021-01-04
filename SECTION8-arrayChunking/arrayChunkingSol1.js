@@ -25,18 +25,22 @@ evo sta je fora ovog zadatka:
 
 const chunk = (array, size) => {
   let chunks = [];
-
+  debugger;
   for (let element of array) {
-    const last = chunks[chunks.length - 1]; //Last ustvari cupa iz chunks-a zadnji element
+    debugger;
+    const last = chunks[chunks.length - 1]; //Last ustvari cupa iz chunks-a zadnji element i smjesta ga u array [11]
     debugger;
     if (!last || last.length === size) {
+      //!last ce biti true samo prvi put kada loopamo kroz array, jer je tada chunks[chunks.length - 1] undefined
       debugger;
       chunks.push([element]); //guramo element u chunks, element upakovan u array
     } else {
       debugger;
       last.push(element);
+      debugger;
     }
   }
+  debugger;
   return chunks;
 };
 console.log(chunk([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], 3));

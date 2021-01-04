@@ -25,4 +25,4 @@ const fizzBuzz = (n) => {
     }
   }
 };
-console.log(fizzBuzz(15));
+fizzBuzz(15);
