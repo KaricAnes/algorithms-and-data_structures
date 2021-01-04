@@ -12,6 +12,7 @@
 const word = "there";
 console.log(word.slice(2)); //ere
 */
+//word[0] je slovo "a" od rijeci anes npt
 
 const capitalize = (str) => {
   const words = [];

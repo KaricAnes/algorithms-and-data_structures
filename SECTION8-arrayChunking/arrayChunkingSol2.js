@@ -15,9 +15,9 @@ const chunk = (array, size) => {
   debugger;
   while (index < array.length) {
     debugger;
-    chunked.push(array.slice(index, index + size));
+    chunked.push(array.slice(index, index + size)); //slice objasnjen u arrayFunctions //(0,3) (3,6)
     debugger;
-    index += size;
+    index += size; //index je 0, pa 3 pa 6 itd..
     debugger;
   }
   debugger;

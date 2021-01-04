@@ -17,7 +17,7 @@ const palindrome = (str) => {
   let reversedString = str.split("").reduce((reversed, character) => {
     // debugger;
     return character + reversed;
-  }, ""); //prvi karakter i prije nego udjemo u string kapak ce biti d, rez: kapakd
+  }, ""); //prvi karakter i prije nego udjemo u string kapak ce biti d, rez: kapakd. inicijalna vrijednost
   //const reversedString = str.split('').reverse().join('');
   if (str === reversedString) {
     return true;

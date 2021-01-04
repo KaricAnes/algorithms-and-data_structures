@@ -13,6 +13,11 @@ const word = "there";
 console.log(word.slice(2)); //ere
 */
 
+/*
+Ovdje je fora da ako imamo prvo slovo stringa - znamo da mora biti uppercase
+A u ostalim rijecima, ako imamo " " space, znamo da iza space-a treba biti veliko slovo
+*/
+
 const capitalize = (str) => {
   let result = str[0].toUpperCase();
   for (let i = 1; i < str.length; i++) {
