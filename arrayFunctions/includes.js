@@ -8,3 +8,13 @@ console.log(string.includes("ellod")); //false => tacno mora biti u komadu rijec
 
 let arr = ["a", "b", "c", "d"];
 console.log(arr.includes("a")); //true
+
+/*
+//ispod vidimo includes u kombinaciji sa while - om
+//FileWaveCodility - task 1
+
+while (posUniqueNumber <= 0 || sortedArr.includes(posUniqueNumber)) {
+    debugger;
+    posUniqueNumber++;
+  }
+*/
