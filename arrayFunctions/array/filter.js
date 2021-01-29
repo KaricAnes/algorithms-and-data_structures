@@ -14,3 +14,13 @@ const filteredArr = arr.filter(
 
 console.log(arr); //["a", "b", ".", "?"]
 console.log(filteredArr); //["a", "b"]
+
+//---------------------------------------------------------------------------
+const numbers = [1, 2, 3];
+const filteredNumbers = numbers.filter((element) => {
+  return element === 1;
+});
+
+console.log(numbers); //const numbers = [1, 2, 3]; //nije promjenio original
+console.log(filteredNumbers); //[1]
+//---------------------------------------------------------------------------
